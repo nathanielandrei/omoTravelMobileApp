@@ -1,0 +1,19 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>{{selectedItem.title.rendered}}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content padding>
+    <ion-card>
+        <img *ngIf="selectedItem.imageSourceTemp" [src]="selectedItem.imageSourceTemp" class="featured-image" />
+            <ion-card-content>
+                <ion-card-title class="text-title">
+                  <b>{{selectedItem.title.rendered}}</b>
+                </ion-card-title>
+                <p [innerHTML]="selectedItem.content.rendered"></p>
+            </ion-card-content>
+    </ion-card>
+</ion-content>

@@ -1,0 +1,21 @@
+page-home {
+    .logo-container {
+        position: relative;
+        background-color: #333;
+    }
+    
+    .logo-handler{
+        position: absolute;
+        left: 20%;
+        top: 10%;
+    }
+    
+    .image-style{
+        width: 80%;
+        height: 80%;
+    }
+    
+    .alert-style{
+        text-align: center;
+    }
+}
