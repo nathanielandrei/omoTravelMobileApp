@@ -4,7 +4,7 @@ Ionic 2 and Angular 2 Mobile Application for OmoTravel
 Instructions:
 Please clone the repository or download the zip file by clicking the download button.
 
-cd <location path of the downloaded project>
+cd project/path
 
 ionic run android
 (make sure you have an andoroid SDK installed, android studio)
